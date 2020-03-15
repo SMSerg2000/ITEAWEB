@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset='UTF-8'>
-		<title>Table colors</title>
-	</head>
-
 <%
 String rows=request.getParameter("rows");
 String cols=request.getParameter("cols");
@@ -39,5 +32,3 @@ if (i%2 ==0 || j%2 ==0 || i<=0 || j<=0) {
 }
 
 %>
-
-</html>
