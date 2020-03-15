@@ -14,7 +14,7 @@ try {
 	int mediana1 = i/2 + 1;
 	int mediana2 = j/2 + 1;
 if (i%2 ==0 || j%2 ==0 || i<=0 || j<=0) {
-	out.write("Field value <Rows> must not be even");
+	out.write("<h2>Field value <Rows> must not be even</h2>");
 	out.write("<br><br>");
 	out.write("<a href='#' onclick='history.back();return false;'>BACK</a>");
 } else {
@@ -33,7 +33,7 @@ if (i%2 ==0 || j%2 ==0 || i<=0 || j<=0) {
 	out.write("</table>");
 } 
 } catch (NumberFormatException e) {
-	out.write("Go back and enter a number");
+	out.write("<h1 style='color:red'> GO BACK  AND  ENTER  A  NUMBER!!!</h1>");
 	out.write("<br><br>");
 	out.write("<a href='#' onclick='history.back();return false;'>BACK</a>");
 }
