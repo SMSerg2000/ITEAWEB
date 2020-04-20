@@ -8,6 +8,12 @@
 	<link href="style.css" rel="stylesheet" />
 </head>
 
+<body link="#ff0000" vlink="#cecece" alink="#ff0000" bgcolor="black">
+  <p>
+  </p>
+  <p><a href="registration.jsp">Registration</a></p>
+</body>
+
 <body>
 	<%
 	String login = request.getParameter("login");
